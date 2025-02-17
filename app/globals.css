@@ -19,3 +19,24 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.image-container {
+  border: 1px solid var(--foreground);
+  padding: 0.5rem;
+}
+
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-description {
+  margin-top: 0.5rem;
+  text-align: center;
+}
