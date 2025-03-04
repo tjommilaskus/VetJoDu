@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Page() {
     const pictures = [
         {
-            src: '/VJD.jpg',
+            src: 'file.svg',
             alt: 'Tjommi',
             description: 'Ikke tvil igjen!',
             width: 250,
